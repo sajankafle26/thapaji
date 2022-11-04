@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Raleway', sans-serif;
+}
+p 
+{
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: 700;
+}
+ul 
+{
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+:root 
+{
+    --brand: #1D508D;
+    --orange: #EB8D02;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.py-5 
+{
+    padding: 15px 0;
+}
+.logo
+{
+    display: flex;
+}
+.logo h3 
+{
+    font-weight: 200;
+    align-self: end;
+    padding-left: 20px;
+    color: var(--orange);
+}
+.logo h3 span 
+{
+    color: var(--brand);
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_nav
+{
+    text-align: right;
+}
+.info_nav li 
+{
+    display: inline;
+    border-right: 1px solid #999;
+    padding: 0px 20px;
+}
+.info_nav li i 
+{
+    color: var(--orange);
+}
+.info_nav li:last-child  
+{
+    border: none;
+    padding-right: 0;
+}
+.top__contact
+{
+    text-align: right;
+    padding-top: 20px;
+}
+.top__contact span 
+{
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.top__contact p 
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-text
+{
+    background: var(--brand);
+    height: 35px;
+    width: 175px;
+    border: none;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #b6c9e1;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.search_btn
+{
+    background: transparent;
+    border: 0;
+    position: relative;
+    left: -30px;
+    color: #fff;
+    margin-right: -10px;
+}
+.main_menu
+{
+    background: var(--brand);
+    line-height: 50px;
+}
+.main_menu span 
+{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 3px;
+    display: none;
+}
+.main_menu li 
+{
+    display: inline;
+    position: relative;
+}
+.main_menu li a 
+{
+    color: #fff;
+    padding:0 19px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dropdown
+{
+    width: 200px;
+    height: 150px;
+    background: #fff;
+    position: absolute;
+    top: 180%;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.main_menu li:hover .dropdown 
+{
+  display: block;
+}
+.dropdown::before 
+{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    border:5px solid;
+    border-color: transparent transparent white transparent;
+}
+.banner
+{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.banner img 
+{
+    width: 100%;
+    display: block;
+}
+.search
+{
+    background: #333333;
+    line-height: 60px;
+    padding: 5px 0;
+}
+.d-box
+{
+    width: 30%;
+    position: relative;
+}
+.d-box img 
+{
+    width: 100%;
+}
+.d-content
+{
+    position: absolute;
+     top: 100px;
+     right: 20px;
+     color: #fff;
+     text-shadow: 2px 2px 4px #000;
+}
+.d-content h1 
+{
+    font-size: 33px;
+    text-align: right;
+}
+.d-content p 
+{
+    font-size: 32px;
+}
+.holiday
+{
+    color: #fff;
+    line-height: 1.2;
+}
+.holiday h1 
+{
+    text-transform: uppercase;
+}
+.holiday p 
+{
+    text-align: right;
+}
+.search .form-control.destination {
+    background: #fff url(../img/icon-destination.png) no-repeat left 15px center;
+    padding-left: 50px;
+  }
+
+  select.form-control {
+    box-shadow: none;
+    border: 1px solid #d7d9d9;
+    font-size: 15px;
+    color: #636363;
+    border-radius: 2px;
+    height: 40px;
+    margin-bottom: 5px;
+    width: 225px;
+  }
+  .btn1
+  {
+    background: orange;
+    border: none;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 18px;
+  }
+
+
+  .destinations h3 
+  {
+    text-align: center;
+    font-size: 34px;
+        color: #212121;
+        font-weight: 300;
+        padding-bottom: 20px;
+        position: relative;
+  }
+  .destinations h3::before 
+  {
+    content: '';
+    position: absolute;
+    top: 79%;
+    width: 61px;
+    left: 48%;
+    background: #EB8D02;
+    height: 2px;
+  }
+  .destinations 
+  {
+    padding: 35px 0;
+  }
+
+  .block2
+  {
+    background: #F2F4F5;
+    padding: 50px 0;
+    border-top: 1px solid #999;
+  }
+  .block2 .flex > div 
+{
+    text-align: center;
+}
+
+.item-wrap big {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+  }
+  .item-wrap {
+    font-size: 18px;
+    color: #1d508d;
+  }
+  .blue
+  {
+    background: #1D508D;
+  }
+  .orange 
+  {
+    background: #EB8D02;
+  }
+  .block3 .flex > div 
+  {
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+  }
+  .destinations h5 
+  {
+    font-size: 18px;
+    padding: 20px 0;
+    color: #1d508d;
+  }
+  footer
+  {
+    background: url('https://www.thameltravel.com/themes/images/footer-bg.png') #1D508D;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 60px 0;
+  }
+  .center 
+  {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .center h2 
+  {
+    padding-bottom: 20px;
+  }
+  .footer-nav 
+  {
+    margin-bottom: 20px;
+  }
+  .footer-nav li
+  {
+    color: #e0e9f0;
+    line-height: 1.7;
+  }
+  .footer-nav li::before
+  {
+    content: "\f105";
+    font-family: 'FontAwesome';
+  }
+  .bottom
+  {
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #3475c4;
+    padding-top: 30px;
+  }
+  .bottom h3 
+  {
+    font-weight: 300;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .copyright 
+  {
+    background: #0F407A;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .aaa 
+  {
+    display: block !important;
+  }

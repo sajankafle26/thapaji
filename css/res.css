@@ -1,0 +1,20 @@
+@media(max-width: 768px)
+{
+    .info{ display: none;}
+    .logo{ flex-direction: column;}
+    .flex, .d-box{ width: 100%; text-align: center;}
+    .main_menu ul, .search{ display: none;}
+    .main_menu li { display: block;}
+    .main_menu span { display: block; text-align: right; font-size: 22px;
+    padding-right: 20px;}
+    .flex{ flex-direction: column;}
+    .item-wrap{ padding: 20px 0;}
+    .block3 .flex > div{ width: 100%;}
+    .con{ padding: 15px;}
+}
+@media(min-width: 769px) and (max-width: 992px)
+{
+    footer .flex { flex-wrap: wrap;}
+    .con{ padding: 15px;}
+    footer .flex  .footer-nav{ flex-basis: 300px;}
+}

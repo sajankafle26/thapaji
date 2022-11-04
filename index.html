@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/res.css">
+</head>
+
+<body>
+    <header class="py-5">
+        <div class="con">
+            <div class="flex">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <h3>Cultures <span>& Adventures</span></h3>
+                </div>
+                <div class="info">
+                    <nav class="info_nav">
+                        <ul>
+                            <li> <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Things to do</li>
+                            <li><i class="fa fa-plane" aria-hidden="true"></i>
+                                Flight </li>
+                            <li><i class="fa fa-car" aria-hidden="true"></i>
+                                Transport</li>
+                        </ul>
+                    </nav>
+                    <div class="top__contact flex">
+                        <p><span>Contact Us On:</span>+977 9841697870 (Call, WhatsApp, Viber) | Mail Us</p>
+                        <form> <input class="input-text" placeholder="Site Search">
+                            <button class="search_btn"><i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="main_menu">
+        <span><i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
+        <div class="con">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="dropdown-nav"><a href="">Nepal Tours</a>
+                    <ul class="dropdown">
+                        <li></li>
+                    </ul>
+                </li>
+                <li><a href="">Treks</a></li>
+                <li><a href="">Day Tours</a></li>
+                <li><a href="">Tibet</a></li>
+                <li><a href="">Bhutan</a></li>
+                <li><a href="">Multi Countries</a></li>
+                <li><a href="">Partner With Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="https://www.thameltravel.com/uploads/banner/Trekking.jpg" alt="">
+    </section>
+    <section class="search">
+        <div class="con">
+            <div class="flex">
+                <div class="holiday">
+                    <h1> Holiday Finder </h1>
+                    <p>or your next trip</p>
+                </div>
+                <select class="form-control destination" id="destination" onchange="get_activities(this.value);">
+                    <option value="">DESTINATION</option>
+                    <option value="2">Nepal</option>
+                    <option value="3">Tibet</option>
+                    <option value="4">Bhutan</option>
+                    <option value="15">Multi Countries</option>
+                </select>
+                <select class="form-control destination" id="destination" onchange="get_activities(this.value);">
+                    <option value="">DESTINATION</option>
+                    <option value="2">Nepal</option>
+                    <option value="3">Tibet</option>
+                    <option value="4">Bhutan</option>
+                    <option value="15">Multi Countries</option>
+                </select>
+                <select class="form-control destination" id="destination" onchange="get_activities(this.value);">
+                    <option value="">DESTINATION</option>
+                    <option value="2">Nepal</option>
+                    <option value="3">Tibet</option>
+                    <option value="4">Bhutan</option>
+                    <option value="15">Multi Countries</option>
+                </select>
+
+                <button class="btn1">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <h3>Top Destinations</h3>
+        <div class="con">
+            <div class="flex">
+                <div class="d-box">
+                    <img src="img/nepal.jpeg">
+                    <div class="d-content">
+
+                        <h1>Nepal</h1>
+                        <p> 82 Packages</p>
+
+                    </div>
+                </div>
+                <div class="d-box">
+                    <img src="img/bhutan.jpeg">
+                    <div class="d-content">
+
+                        <h1>Nepal</h1>
+                        <p> 82 Packages</p>
+
+                    </div>
+                </div>
+                <div class="d-box">
+                    <img src="img/tibet.jpeg">
+                    <div class="d-content">
+
+                        <h1>Nepal</h1>
+                        <p> 82 Packages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="block2">
+        <div class="con">
+            <div class="flex">
+                <div>
+                    <img src="https://www.thameltravel.com/themes/images/departure-icon.png">
+                    <div class="item-wrap">Available Group Join &amp; <big>Departure Date</big></div>
+                </div>
+                <div>
+                    <img src="https://www.thameltravel.com/themes/images/departure-icon.png">
+                    <div class="item-wrap">Available Group Join &amp; <big>Departure Date</big></div>
+                </div>
+                <div>
+                    <img src="https://www.thameltravel.com/themes/images/departure-icon.png">
+                    <div class="item-wrap">Available Group Join &amp; <big>Departure Date</big></div>
+                </div>
+                <div>
+                    <img src="https://www.thameltravel.com/themes/images/departure-icon.png">
+                    <div class="item-wrap">Available Group Join &amp; <big>Departure Date</big></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="block3">
+        <div class="flex">
+            <div class="blue">About Thamel Travel & Tours</div>
+            <div class="orange">Why travel with us?</div>
+        </div>
+    </section>
+    <section class="destinations">
+        <h3>Our Best Sellers</h3>
+        <div class="con">
+            <div class="flex">
+                <div class="d-box">
+                    <img src="img/nepal.jpeg">
+                    <h5>Everest Base Camp Private Trek</h5>
+                </div>
+                <div class="d-box">
+                    <img src="img/bhutan.jpeg">
+                    <h5>Everest Base Camp Private Trek</h5>
+                </div>
+                <div class="d-box">
+                    <img src="img/tibet.jpeg">
+                    <h5>Everest Base Camp Private Trek</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="con">
+            <div class="center">
+                <h2>Certificates & Partners</h2>
+                <img src="https://www.thameltravel.com/themes/images/partner-a.png" alt="">
+            </div>
+            <div class="flex">
+                <div class="footer-nav">
+                    <ul>
+                        <li> Home</li>
+                        <li> Enquiry and Support </li>
+                        <li> Partner With Us </li>
+                        <li> Company Profile </li>
+                        <li> About Us </li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li> Home</li>
+                        <li> Enquiry and Support </li>
+                        <li> Partner With Us </li>
+                        <li> Company Profile </li>
+                        <li> About Us </li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li> Home</li>
+                        <li> Enquiry and Support </li>
+                        <li> Partner With Us </li>
+                        <li> Company Profile </li>
+                        <li> About Us </li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li> Home</li>
+                        <li> Enquiry and Support </li>
+                        <li> Partner With Us </li>
+                        <li> Company Profile </li>
+                        <li> About Us </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Get in Touch </h3>
+                Post Box: 10988 | Chaksibari Marg, Thamel, Kathmandu, Nepal | Tel: +977 1 4253029 | Mobile: +977 9841697870 | Email: thameltravel@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright">
+      <p>  © 2022, Thamel Travels & Tours Pvt. Ltd.    |   All Rights Reserved    |   Designed and Developed By: Imagine Web Solution</p>
+<p>
+All contents and photographs within this website is © by Thamel Travels and Tours and may not be reproduced without our permission. </p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
